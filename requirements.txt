@@ -1,4 +1,3 @@
 ROOT
 pyyaml
 snakemake
-jupyter

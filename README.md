@@ -34,10 +34,11 @@ This runs the full pipeline:
 1. `src/selection.py` — applies the selection to the input samples listed in
    `config.yaml` and writes `results/selected_data.root`;
 2. `src/mass_fit.py` — fits the dimuon mass spectrum and writes
-   `figures/mass_fit.png`;
-3. `notebooks/mass_plot.ipynb` — executed headlessly by snakemake to produce
-   `figures/mass_plot.png` (the same notebook can be opened interactively in
-   Jupyter).
+   `figures/mass_fit.png`.
+
+The `notebooks/` folder contains standalone example notebooks (not part of
+the pipeline); to run them locally install `jupyter` in addition to the
+requirements above.
 
 Input files are taken from the local paths in `config.yaml` when present,
 otherwise they are read from the remote (xrootd) URLs — no manual download
