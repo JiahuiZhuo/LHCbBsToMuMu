@@ -149,11 +149,11 @@ $`\sqrt{2\,\Delta \ln \mathcal{L}}`$ (statistical only).
 The analysis strategy used here is inspired by the following published LHCb
 measurements of $`B_s^0 \to \mu^+\mu^-`$:
 
-1. LHCb collaboration, *First Evidence for the Decay $`B_s^0 \to \mu^+\mu^-`$*,
+1. LHCb collaboration, "First Evidence for the Decay $`B_s^0 \to \mu^+\mu^-`$",
    Phys. Rev. Lett. 110 (2013) 021801,
    [arXiv:1211.2674](https://arxiv.org/abs/1211.2674),
    [INSPIRE](https://inspirehep.net/literature/1202279).
-2. LHCb collaboration, *Analysis of Neutral $`B`$-Meson Decays into Two Muons*,
+2. LHCb collaboration, "Analysis of Neutral $`B`$-Meson Decays into Two Muons",
    Phys. Rev. Lett. 128 (2022) 041801,
    [arXiv:2108.09284](https://arxiv.org/abs/2108.09284),
    [INSPIRE](https://inspirehep.net/literature/1908214).
