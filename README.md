@@ -44,3 +44,11 @@ Input files are taken from the local paths in `config.yaml` when present,
 otherwise they are read from the remote (xrootd) URLs — no manual download
 is required.
 To add more data, append new entries to `config.yaml` and rerun `snakemake`.
+
+## Result
+
+Running the pipeline reproduces the fit of the dimuon invariant-mass
+spectrum ($B_s^0$ and $B^0$ signal peaks, partially reconstructed and
+combinatorial backgrounds — see [docs/analysis.md](docs/analysis.md)):
+
+![Mass fit](docs/mass_fit.png)
