@@ -3,6 +3,9 @@
 data/*.root
 data/download.sh
 
+# figures are pipeline products: regenerate with `snakemake`
+figures/*.png
+
 # snakemake bookkeeping
 .snakemake/
 
