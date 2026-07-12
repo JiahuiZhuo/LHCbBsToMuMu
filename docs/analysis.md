@@ -47,12 +47,12 @@ Following the stripping/preselection of the published analysis:
 | --- | --- |
 | muon identification | isMuon for both tracks |
 | track quality | $`\chi^2_{\rm track}/\mathrm{ndf} < 3`$, ghost probability $`< 0.3`$ |
-| muon momentum | $`p_T(\mu) \in (0.25, 40)\ \mathrm{GeV}/c`$, $`p(\mu) < 500\ \mathrm{GeV}/c`$ |
+| muon momentum | $`p_T(\mu) \in (0.25, 40)`$ GeV/$`c`$, $`p(\mu) < 500`$ GeV/$`c`$ |
 | muon impact parameter | $`\chi^2_{\rm IP}(\mu) > 25`$ (both muons) |
 | secondary vertex | $`\chi^2_{\rm vtx} < 9`$ |
 | flight distance | $`\chi^2_{\rm FD} > 225`$ |
 | $`B`$ pointing | $`\chi^2_{\rm IP}(B) < 25`$ |
-| $`B`$ momentum | $`p_T(B) > 0.5\ \mathrm{GeV}/c`$ |
+| $`B`$ momentum | $`p_T(B) > 0.5`$ GeV/$`c`$ |
 
 ### 3.2 Muon identification
 
@@ -75,8 +75,8 @@ Common to all years:
 | pointing angle | $`\mathrm{DIRA} > 0.9999975`$ |
 | secondary vertex | $`\chi^2_{\rm vtx} < 4`$ |
 | $`B`$ impact parameter | $`\chi^2_{\rm IP}(B) < 9`$ |
-| $`B`$ momentum | $`p_T(B) > 2\ \mathrm{GeV}/c`$ |
-| muon momentum | $`p_T(\mu) > 1\ \mathrm{GeV}/c`$ |
+| $`B`$ momentum | $`p_T(B) > 2`$ GeV/$`c`$ |
+| muon momentum | $`p_T(\mu) > 1`$ GeV/$`c`$ |
 
 The selection is tuned **per data-taking year**: at 13 TeV the higher pile-up
 and the roughly doubled $`b\bar{b}`$ cross-section give a substantially larger
@@ -101,15 +101,15 @@ four components:
 | Component | Shape | Parameters |
 | --- | --- | --- |
 | $`B_s^0 \to \mu^+\mu^-`$ | Gaussian | mean and width floating |
-| $`B^0 \to \mu^+\mu^-`$ | Gaussian | mean tied to $`m(B_s^0) - 87.2\ \mathrm{MeV}`$ (PDG $`\Delta m`$), width shared with the $`B_s^0`$ |
+| $`B^0 \to \mu^+\mu^-`$ | Gaussian | mean tied to $`m(B_s^0) - 87.2`$ MeV (PDG $`\Delta m`$), width shared with the $`B_s^0`$ |
 | partially reconstructed | right half of a wide Gaussian | mean fixed at the low edge of the fit range, width floating |
 | combinatorial | exponential | slope floating |
 
 **Signal peaks.** The expected peak positions are the PDG masses
-$`m(B_s^0) = 5366.9\ \mathrm{MeV}/c^2`$ and $`m(B^0) = 5279.7\ \mathrm{MeV}/c^2`$;
+$`m(B_s^0) = 5366.9`$ MeV/$`c^2`$ and $`m(B^0) = 5279.7`$ MeV/$`c^2`$;
 the LHCb dimuon mass resolution at these masses is
-$`\sigma \approx 23\ \mathrm{MeV}/c^2`$, so the two peaks
-(separated by $`87.2\ \mathrm{MeV}/c^2`$,
+$`\sigma \approx 23`$ MeV/$`c^2`$, so the two peaks
+(separated by $`87.2`$ MeV/$`c^2`$,
 i.e. $`\sim 4\sigma`$) are partially resolved. A fitted mean and width
 compatible with these values is a useful closure check. The $`B^0`$ component
 is included so that its possible contribution does not bias the $`B_s^0`$
