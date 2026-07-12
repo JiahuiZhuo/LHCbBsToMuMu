@@ -1,0 +1,10 @@
+name: bs2mumu
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - root
+  - pyyaml
+  - snakemake-minimal
+  - jupyter

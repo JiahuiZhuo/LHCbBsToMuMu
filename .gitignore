@@ -1,0 +1,10 @@
+# raw input data: too large for git -- fetch with data/download.sh or via
+# the remote URLs in config.yaml (results/*.root are small and ARE tracked)
+data/*.root
+data/download.sh
+
+# snakemake bookkeeping
+.snakemake/
+
+# python
+__pycache__/

@@ -1,0 +1,32 @@
+# ---------------------------------------------------------------------------
+# Input data configuration
+#
+# Each sample lists BOTH a local path and a remote (xrootd) URL:
+#   - if the local file exists, scripts use it;
+#   - otherwise they fall back to the remote URL.
+#
+# To add a new sample, append an entry to `samples` — scripts iterate over
+# this list, so new entries are picked up automatically (results regrouped
+# by the `year` field, no code change needed).
+# ---------------------------------------------------------------------------
+
+input_data:
+  tree: BsMuMu/DecayTree
+  samples:
+    - name: 2012_MagUp
+      year: 2012
+      polarity: MagUp
+      local: data/2012_MagUp.root
+      remote: root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/anaprod/lhcb/LHCb/Collision12/DVNTUPLE.ROOT/00403849/0000/00403849_00000001_1.dvntuple.root
+
+    - name: 2012_MagDown
+      year: 2012
+      polarity: MagDown
+      local: data/2012_MagDown.root
+      remote: root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/anaprod/lhcb/LHCb/Collision12/DVNTUPLE.ROOT/00403854/0000/00403854_00000001_1.dvntuple.root
+
+    - name: 2017_MagDown
+      year: 2017
+      polarity: MagDown
+      local: data/2017_MagDown.root
+      remote: root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/anaprod/lhcb/LHCb/Collision17/DVNTUPLE.ROOT/00403850/0000/00403850_00000001_1.dvntuple.root

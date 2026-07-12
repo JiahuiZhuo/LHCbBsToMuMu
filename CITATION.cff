@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Search for the rare decay Bs -> mu+ mu- with LHCb open data"
+type: software
+authors:
+  - family-names: "Zhuo"
+    given-names: "Jiahui"
+    orcid: "https://orcid.org/0000-0002-6227-3368"
+repository-code: "https://github.com/JiahuiZhuo/LHCbBsToMuMu"
+license: MIT
+version: 1.0.0
+date-released: 2026-07-12
+keywords:
+  - LHCb
+  - open data
+  - rare decays
+  - flavour physics
