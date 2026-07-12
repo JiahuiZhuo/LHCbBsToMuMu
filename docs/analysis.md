@@ -14,7 +14,9 @@ and ATLAS are consistent with this expectation; the current measured value is
 $`\mathcal{B}(B_s^0 \to \mu^+\mu^-) \simeq 3.1 \times 10^{-9}`$ with a
 precision of about 10%. Because new heavy particles (e.g. extended Higgs
 sectors) could enhance or suppress this rate significantly, the decay is one
-of the most powerful indirect probes of physics beyond the SM.
+of the most powerful indirect probes of physics beyond the SM. Such new
+physics could also supply the extra CP violation needed to explain the cosmic
+excess of matter over antimatter.
 
 The partner decay $`B^0 \to \mu^+\mu^-`$ is further CKM-suppressed,
 $`\mathcal{B}_{\rm SM} \approx 1.0 \times 10^{-10}`$, and has not been observed
@@ -141,3 +143,17 @@ $`\sqrt{2\,\Delta \ln \mathcal{L}}`$ (statistical only).
   kinematics, vertex quality, PID and the `year` tag);
 - `figures/mass_fit.png` — mass spectrum with the fit overlaid and the
   per-bin pulls.
+
+## 6. References
+
+The analysis strategy used here is inspired by the following published LHCb
+measurements of $`B_s^0 \to \mu^+\mu^-`$:
+
+1. LHCb collaboration, *First Evidence for the Decay $`B_s^0 \to \mu^+\mu^-`$*,
+   Phys. Rev. Lett. 110 (2013) 021801,
+   [arXiv:1211.2674](https://arxiv.org/abs/1211.2674),
+   [INSPIRE](https://inspirehep.net/literature/1202279).
+2. LHCb collaboration, *Analysis of Neutral $`B`$-Meson Decays into Two Muons*,
+   Phys. Rev. Lett. 128 (2022) 041801,
+   [arXiv:2108.09284](https://arxiv.org/abs/2108.09284),
+   [INSPIRE](https://inspirehep.net/literature/1908214).
